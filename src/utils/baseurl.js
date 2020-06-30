@@ -1,0 +1,1 @@
+export const BASE_URL = 'https://worldcup.sfg.io/matches/country?fifa_code=';

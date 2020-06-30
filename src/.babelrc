@@ -1,0 +1,29 @@
+{
+    "env": {
+      "production": {
+        "plugins": [
+          ["react-remove-properties", {"properties": ["data-test"]}]
+        ]
+      }
+    },
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+            "targets": {
+                "node": "current"
+            }
+        }
+        
+      ],
+      "@babel/preset-react"
+    ],
+    "plugins": [
+      [
+        "@babel/plugin-proposal-class-properties",
+        {
+          "loose": true
+        }
+      ]
+    ]
+  }

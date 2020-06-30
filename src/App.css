@@ -1,0 +1,8 @@
+.theme-container { 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90vw;
+    margin: 0 auto;
+    margin-top: 20px;
+    align-items: center;
+}

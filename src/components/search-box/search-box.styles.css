@@ -1,0 +1,11 @@
+.search{
+    width: 50vw;
+    margin: 0 auto;
+    border: 1px solid grey;
+    outline: none;
+    display: block;
+    padding: 10px;
+    margin-top: 2px;
+    font-size: 16px;
+    font-weight: bold;
+}

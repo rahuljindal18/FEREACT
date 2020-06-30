@@ -1,0 +1,6 @@
+.color-picker { 
+    display: grid;
+    grid-template-columns: 120px 100px;
+    width: 40vw;
+    align-items: center;
+}
